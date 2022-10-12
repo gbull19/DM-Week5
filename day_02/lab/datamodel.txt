@@ -1,0 +1,38 @@
+Brainstorming
+Users
+	Email
+	Password
+	Username
+
+Recipes
+	?Ingredients?
+	?Instructions?
+	Privacy
+
+?Instructions?
+
+?Ingredients?
+
+Shared Recipes
+
+Grocery Lists
+	Ingredients
+	
+Occasions
+
+
+Table Ideas
+Users: user_id primary key with a username, email, and password for login and recipe sharing purposes.
+
+Recipes: recipe_id primary key with user_id and ingredient_id foreign keys. Will include name varchar(50), difficulty integer, prep_time integer, privacy boolean, ingredient_quantity integer, and instructions text.
+
+Ingredients: ingredient_id primary key, name varchar(30)
+
+Grocery Lists: grocery_list_id primary key with user_id, recipe_id, and ingredient_id foreign keys. Name varchar(30).
+	
+Occasions: occasion_id primary key with user_id and recipe_id foreign keys. Name varchar(30).
+
+
+Relationships
+Ingredients (one-to-many) Grocery Lists
+Ingredients (one-to-many) Recipes
