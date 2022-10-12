@@ -9,7 +9,7 @@ h1 {
     color: white;
 }
 
-h2, h3, h4, p, a {
+h2, h3, p, a {
     margin: 15px;
 }
 
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: coral;
+    color: greenyellow;
 }
 
 main {
@@ -31,21 +31,28 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: darkolivegreen;
+    background-color: green;
 }
 
 form > button {
     padding: 0 10px;
 }
 
-.card {
-    border: 2px solid darkolivegreen;
+#appt-form {
+    margin: 15px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appt-card {
+    border: 2px solid green;
     box-shadow: 5px 5px 0 grey;
     margin: 20px;
     padding: 20px;
 }
 
-#user-form {
+#profile-form {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -53,12 +60,12 @@ form > button {
     margin-left: 15px;
 }
 
-#user-form > input {
+#profile-form > input {
     margin-bottom: 15px;
 }
 
-#user-form > button {
-    background-color: darkolivegreen;
+#profile-form > button {
+    background-color: green;
     border: none;
     color: white;
     padding: 5px;
