@@ -7,5 +7,3 @@ public class Variables {
         System.out.println(busTickets);
     }
 }
-
-
