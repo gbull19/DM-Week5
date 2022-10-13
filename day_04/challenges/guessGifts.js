@@ -18,6 +18,6 @@ const guessGifts = (arr1, arr2) => {
             }
         }
     } return guesses;
-}
+};
 
 console.log(guessGifts(wishlist, presents)); // must return ["Toy Car", "Mini Puzzle"]
