@@ -1,3 +1,5 @@
+package Week_05.day_04.Section_Five;
+
 public class WhileLoops {
     public static void main(String[] args) {
         // for (int number = 25; number <= 30; number++ ) {
